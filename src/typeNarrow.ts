@@ -31,8 +31,23 @@ function carName(name: "BMW" | "Mercedes" | "Aston Martin" | number) {
 
 //We can also make our own types
 type HyperCar = {
-    type: string
-    horsepower: number
+  type: string;
+  horsepower: number;
 };
 
+function isHyperCar(obj:any): obj is HyperCar {
+  return(
+    typeof obj === "object" &&
+    obj !== null &&
+    typeof obj.type === "string" &&
+    typeof obj.horsepower === "number"
 
+  )
+}
+
+function CarDelivered(car:HyperCar | string){
+  if (isHyperCar(car)) {
+    return `Delivered the ${car.type} which has ${car.horsepower} hp`
+  }
+  return `Delivered ${car}`
+}
