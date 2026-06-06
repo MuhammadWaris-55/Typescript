@@ -28,3 +28,11 @@ function carName(name: "BMW" | "Mercedes" | "Aston Martin" | number) {
   }
   return `Model Number of car is ${name}`;
 }
+
+//We can also make our own types
+type HyperCar = {
+    type: string
+    horsepower: number
+};
+
+
