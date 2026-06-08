@@ -37,3 +37,14 @@ NewValue = 3.2;
 if (typeof NewValue === "string") {
   NewValue.toUpperCase();
 }
+
+
+//Way of Wrting Try Catch in Typescript
+try {
+    
+} catch (error) {
+    if (error instanceof Error) {
+        console.log(error.message)
+    }
+    console.log("Error" , error)
+}
