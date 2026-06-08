@@ -17,11 +17,11 @@ const InputElement = document.getElementById("username") as HTMLInputElement;
 //Use of Unknown
 
 //This will not give an error because it uses any
-// let value:any;
-// value = "Car"
-// value = [1,2,3]
-// value = 3.2
-// value.toUpperCase()
+let value:any;
+value = "Car"
+value = [1,2,3]
+value = 3.2
+value.toUpperCase()
 
 //Now this will give an error
 // let NewValue:unknown;
