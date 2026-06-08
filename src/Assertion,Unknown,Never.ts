@@ -48,3 +48,20 @@ try {
     }
     console.log("Error" , error)
 }
+
+
+//Type Never
+
+type Role = "admin" | "user"
+
+function redirectBsedOnRole(role:Role){
+    if (role === "admin") {
+      console.log("Redirecting to Admin Dashboard")
+      return
+    }
+    if (role === "user") {
+      console.log("Redirecting to User Dashboard")
+      return
+    }
+    role; //Here the type of role is never because we handelled all the expected outcomes
+}
