@@ -11,3 +11,6 @@ let CarString = '{"name":"BMW"}'
 let CarObject = JSON.parse(CarString) as Car 
 
 console.log(CarObject)
+
+
+const InputElement = document.getElementById("username") as HTMLInputElement
