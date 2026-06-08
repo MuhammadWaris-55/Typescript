@@ -63,5 +63,5 @@ function redirectBsedOnRole(role:Role){
       console.log("Redirecting to User Dashboard")
       return
     }
-    role; //Here the type of role is never because we handelled all the expected outcomes
+    role; //Here the type of role is never because we handelled all the expected outcomes , and if any expected outcome not handelled then this will show if we hover it
 }
