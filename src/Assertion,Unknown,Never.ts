@@ -54,7 +54,7 @@ try {
 
 type Role = "admin" | "user"
 
-function redirectBsedOnRole(role:Role){
+function redirectBsedOnRole(role:Role): void{
     if (role === "admin") {
       console.log("Redirecting to Admin Dashboard")
       return
