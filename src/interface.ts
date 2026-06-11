@@ -33,3 +33,10 @@ class Chai implements TeaRecipe{
     water = 100
     milk = 100
 }
+
+//like doing this is not allowed we have to make it interface
+// type CupSize = "small" | "large"
+
+// class chai implements CupSize{
+    
+// }
