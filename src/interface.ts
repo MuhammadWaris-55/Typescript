@@ -40,3 +40,13 @@ class Chai implements TeaRecipe{
 // class chai implements CupSize{
     
 // }
+
+//we can write same thing in interface 
+interface CupSize {
+    Size: "small" | "large"
+
+} 
+
+class chai implements CupSize{
+    Size: "small" | "large" = "large";
+}
