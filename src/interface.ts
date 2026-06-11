@@ -21,3 +21,15 @@ function Car(features: CarFeatures) {
 function DeliverCar(features: CarFeatures) {
     console.log(features);
 }
+
+
+//this code works here but it will not work in many cases or situations
+type TeaRecipe = {
+    water: number
+    milk: number
+}
+
+class Chai implements TeaRecipe{
+    water = 100
+    milk = 100
+}
