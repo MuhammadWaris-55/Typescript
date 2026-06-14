@@ -2,6 +2,11 @@
 let Car: {
     name: string;
     isMadeIn: number;
-    sportsCar: boolean
+    superCar: boolean;
 }
 
+Car = {
+    name: "Ferrari SF90",
+    isMadeIn: 2022,
+    superCar: true,    
+}
