@@ -27,7 +27,7 @@ const BMW: car = {
 type vehicle = { variant: string };
 let M5CS: vehicle = { variant: "sedan" };
 
-//there is no issue writing this because we satisfied the bare minimum properties
+//there is no issue writing this because we satisfied the bare minimum properties that is variant
 let G63 = { variant: "SUV", color: "Black" };
 
 M5CS = G63;
