@@ -32,14 +32,22 @@ let G63 = { variant: "SUV", color: "Black" };
 
 M5CS = G63;
 
-
 type user = {
-    username: string;
-    password: string;
-}
+  username: string;
+  password: string;
+};
 
 //if we don't give any one field that is defined it will have an error
 const u: user = {
-    username: "WarisCodes",
-    password: "123456"
-}
+  username: "WarisCodes",
+  password: "123456",
+};
+
+type Item = { name: string; quantity: number };
+type Address = { street: string; pin: number };
+
+type Order = {
+  id: string;
+  items: Item[];
+  address: Address;
+};
