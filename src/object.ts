@@ -10,3 +10,9 @@ Car = {
     isMadeIn: 2022,
     superCar: true,    
 }
+
+type car = {
+    name: string;
+    zeroToHundred: number;
+    features: string[]
+}
