@@ -1,33 +1,33 @@
 //That's how we define objects in ts
 let Car: {
-    name: string;
-    isMadeIn: number;
-    superCar: boolean;
-}
+  name: string;
+  isMadeIn: number;
+  superCar: boolean;
+};
 
 Car = {
-    name: "Ferrari SF90",
-    isMadeIn: 2022,
-    superCar: true,    
-}
+  name: "Ferrari SF90",
+  isMadeIn: 2022,
+  superCar: true,
+};
 
 type car = {
-    name: string;
-    zeroToHundred: number;
-    features: string[]
-}
+  name: string;
+  zeroToHundred: number;
+  features: string[];
+};
 
 const BMW: car = {
-    name: "M5CS",
-    zeroToHundred: 2.7,
-    features: ["Fastest" , "Rare" , "FamilyCar"]
-}
+  name: "M5CS",
+  zeroToHundred: 2.7,
+  features: ["Fastest", "Rare", "FamilyCar"],
+};
 
 //Duck Typing
-type vehicle = {variant: string}
-let M5CS: vehicle = {variant: "sedan"}
+type vehicle = { variant: string };
+let M5CS: vehicle = { variant: "sedan" };
 
 //there is no issue writing this because we satisfied the bare minimum properties
-let G63 = {variant: "SUV" , color: "Black"}
+let G63 = { variant: "SUV", color: "Black" };
 
-M5CS = G63
+M5CS = G63;
