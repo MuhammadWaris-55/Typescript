@@ -43,6 +43,8 @@ const u: user = {
   password: "123456",
 };
 
+
+//this code separation is for understanding the code clearly
 type Item = { name: string; quantity: number };
 type Address = { street: string; pin: number };
 
