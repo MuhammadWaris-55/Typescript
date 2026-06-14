@@ -16,3 +16,9 @@ type car = {
     zeroToHundred: number;
     features: string[]
 }
+
+const BMW: car = {
+    name: "M5CS",
+    zeroToHundred: 2.7,
+    features: ["Fastest" , "Rare" , "FamilyCar"]
+}
