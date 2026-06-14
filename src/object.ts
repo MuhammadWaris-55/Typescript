@@ -53,3 +53,18 @@ type Order = {
   items: Item[];
   address: Address;
 };
+
+
+type Chai = {
+    name: string;
+    price: number;
+    isHot: boolean
+}
+
+const updateChai = (updates: Partial<Chai>) => {
+    console.log("updating Chai with" , updates);
+    
+}
+//this partial function makes all the values optional to use means its not compulsory to use all the values of Chai
+
+updateChai({price: 150})
