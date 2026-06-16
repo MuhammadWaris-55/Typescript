@@ -3,3 +3,7 @@ function makeCar(type: string, fueltank: number){
 }
 
 makeCar("Sedan", 50) //if we don't give the no of arguments it needed here then it will give an error , that's the main purpose of using typescript
+
+function getCarPrize(): number {
+    return 10000000
+}
