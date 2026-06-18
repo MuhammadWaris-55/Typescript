@@ -39,3 +39,13 @@ CarTuple = ["Blue", 330]
 let CarItems: [name: string, price:number]
 CarItems = ["Rims", 100]
 CarItems = ["Spoiler", 20]
+
+
+//Enum
+enum CarSize {
+    SEDAN,
+    SUV,
+    HATCHBACK
+}
+//this will make restricted that you have to shoose anyone from these
+const size = CarSize.HATCHBACK
