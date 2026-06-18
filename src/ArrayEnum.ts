@@ -21,3 +21,9 @@ const car: Car[] = [
 
 //this is readonly array we can only define it , we cannot modify it
 const carBrands: readonly string[] = ["Toyota", "Hyundai"]
+
+//Two dimensional array
+const table: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
