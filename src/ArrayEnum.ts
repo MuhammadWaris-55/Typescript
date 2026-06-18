@@ -18,3 +18,6 @@ const car: Car[] = [
     {name: "BMW" , price: 340 , color: "Black"},
     {name: "Mercedes" , price: 250 , color: "White"},
 ]
+
+
+const carBrands: readonly string[] = ["Toyota", "Hyundai"]
