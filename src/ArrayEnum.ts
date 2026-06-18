@@ -33,3 +33,9 @@ let CarTuple: [string, number]
 //Here giving values in same order as defined is necessary
 CarTuple = ["Black", 440]
 CarTuple = ["Blue", 330]
+
+
+//named tuples
+let CarItems: [name: string, price:number]
+CarItems = ["Rims", 100]
+CarItems = ["Spoiler", 20]
