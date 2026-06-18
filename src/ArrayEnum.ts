@@ -19,5 +19,5 @@ const car: Car[] = [
     {name: "Mercedes" , price: 250 , color: "White"},
 ]
 
-
+//this is readonly array we can only define it , we cannot modify it
 const carBrands: readonly string[] = ["Toyota", "Hyundai"]
