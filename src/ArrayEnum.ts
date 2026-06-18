@@ -27,3 +27,9 @@ const table: number[][] = [
     [1, 2, 3],
     [4, 5, 6]
 ]
+
+//tuples
+let CarTuple: [string, number]
+//Here giving values in same order as defined is necessary
+CarTuple = ["Black", 440]
+CarTuple = ["Blue", 330]
