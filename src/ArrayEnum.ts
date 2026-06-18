@@ -13,6 +13,7 @@ type Car = {
     color: string;
 }
 
+//Making Array of objects with custom Datatypes
 const car: Car[] = [
     {name: "BMW" , price: 340 , color: "Black"},
     {name: "Mercedes" , price: 250 , color: "White"},
